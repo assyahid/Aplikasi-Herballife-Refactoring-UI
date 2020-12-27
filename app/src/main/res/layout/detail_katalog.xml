@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffffff">
+    
+
+    <TextView
+        android:id="@+id/nama_tumbuhan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:textColor="#ffffffff"
+        android:textSize="25dp" />
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/kegunaan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:text="Text View Baca"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+			 <View
+			     android:layout_width="fill_parent"
+			     android:layout_height="1dp"
+			     android:layout_marginLeft="5dp"
+			     android:layout_marginRight="5dp"
+			     android:layout_marginTop="10dp"
+			     android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
